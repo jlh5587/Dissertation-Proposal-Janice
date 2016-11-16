@@ -1,0 +1,146 @@
+%%% This is an example file for the Auburn University style options
+%%%       aums.sty (Masters Thesis)
+%%%       auphd.sty (Ph.D. Dissertation)
+%%%       auhonors.sty (Honors Scholar)
+
+%%%To use it, please edit the necessary options, title, author, date, year, keywords, advisor, professor, etc. 
+
+\documentclass[12pt]{report}
+\usepackage{auphd}     % For Ph.D.
+\usepackage{ulem}       % underlining on style-page; see 
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{subfiles}
+\usepackage{blindtext}
+\usepackage{hhline}
+\usepackage[intoc]{nomencl}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[margin=1in]{geometry}
+\usepackage[toc,page]{appendix}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[tracking=true]{microtype}
+
+\graphicspath{ {images/} }
+
+\renewcommand{\nomname}{List of Abbreviations}   	       
+\makenomenclature 
+
+
+
+
+%%%%%Format rules: Normal margins are 1 in. If you need to print with 1.5in margins, uncomment the line below
+%\oddsidemargin0.5in \textwidth6in
+
+%% If you do not need a List of Abbreviations, then comment out the lines below and the \printnomenclature line.
+%%for List of Abbreviations information:  (see http://www.mackichan.com/TECHTALK/509.htm  )
+
+%% don't forget to run:   makeindex ausample.nlo -s nomencl.ist -o ausample.nls
+%% Also, if 
+
+
+
+
+% May want theorems numbered by chapter
+\newtheorem{theorem}{Theorem}[chapter]
+
+% Put the title, author, and date in. 
+\title{M-TRA: A Multi-Tiered Resilient Architecture for Cyber-Physical Systems}
+\author{Janice Ca\~nedo} 
+\date{December 2017} %date of graduation
+\copyrightyear{2017} %copyright year
+
+\keywords{Internet of Things, Architecture, Security, Cyber-Physical Systems}
+
+% Put the Thesis Adviser here. 
+\adviser{Anthony Skjellum}
+
+
+% Put the committee here (including the adviser), one \professor for each. 
+% The advisor must be first, and the dean of the graduate school must be last.
+\professor{Anthony Skjellum, Professor of Computer Science and Software Engineering}
+%\professor{David Umphress, Professor of Computer Science and Software Engineering}
+
+
+
+\begin{document}
+
+\begin{romanpages}      % roman-numbered pages 
+
+\TitlePage 
+
+%\begin{abstract} 
+%Place the text of the abstract here. Headings come automatically.
+%\end{abstract}
+
+\subfile{chapters/abstract.tex}{}
+
+%\begin{acknowledgments}
+%Put text of the acknowledgments here.
+%\end{acknowledgments}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\printnomenclature[0.5in] %used for the List of Abbreviations
+\end{romanpages}        % All done with roman-numbered pages
+
+
+\normalem       % Make italics the default for \em
+
+
+\normalem       % Make italics the default for \em
+
+\chapter{Overview}  % Use \\ for long titles 
+
+\subfile{chapters/overview.tex}{}
+
+\section{Summary}
+
+IoT/CPS is quickly evolving and becoming integrated more in our everyday world. These systems require the ability to scale from small home automation systems to large-scale smart grids. With CPS, it is necessary that these devices and systems are secure and resilient. There is a need to investigate means to provide security within these systems including lightweight device handshakes and active monitoring for anomalies and intrusions. Along with security, resiliency within a IoT/CPS system is of concern. Resiliency requires redundancy of communication and ability to recover from an anomaly. Finally, the ability to maintain a resilient and secure system must remain be scalable as a system grows from 10 devices to 1000s of devices. The goal of this dissertation will be to address these issues and outline a scalable, resilient and secure architecture for IoT/CPS Systems.
+
+The remainder of this dissertation proposal is organized as follows: Chapter~\ref{chap:lit} is a review of literature covering CPS, security, scalability, and resiliency in IoT/CPS systems. Chapter~\ref{chap:questions} is an overview of research questions we intend to answer during this research. Finally, Chapter~\ref{chap:app} explains the approach and metrics we will use during the research process. 
+
+
+\chapter{Review of Literature}
+\label{chap:lit}
+
+\subfile{chapters/related_work.tex}
+
+\chapter{Research Questions}
+\label{chap:questions}
+\subfile{chapters/research_questions}{}
+
+\chapter{Approach and Metrics}
+\label{chap:app}
+\subfile{chapters/approach.tex}{}
+
+\subfile{chapters/metrics.tex}{}
+
+
+{%\small
+\bibliographystyle{unsrt}
+\bibliographystyle{abbrv}
+\bibliography{chapters/references}
+}
+
+\appendix
+\chapter*{Appendices\addcontentsline{toc}{chapter}{Appendices}}
+
+
+\begin{singlespace}
+
+\chapter*{Appendices\addcontentsline{toc}{chapter}{Appendices}}
+\subfile{chapters/publications-plans.tex}{}
+\subfile{chapters/research_questions-scoping.tex}{}
+\end{singlespace}
+
+
+
+\end{document}
+

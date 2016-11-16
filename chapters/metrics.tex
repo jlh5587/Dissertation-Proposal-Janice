@@ -1,0 +1,34 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+
+\section{Metrics}
+
+To determine the level of success within this study, metrics need to be defined. In the following sections, we define metrics for how to analyze system architecture changes, device handshakes, and system monitoring and security. 
+
+\subsection{Architecture}
+To validate architecture performance, we will monitor packet transmission rates, number of devices online (percentage of fully functioning system) and time it requires to return to a functioning state after a failure occurs. Data will be gathered from the system while in normal use to set a baseline of performance. When a baseline performance and a normal threshold have been established, then faults will be added to the system and the same data will be gathered. The data from each test will then be analyzed for similarities and differences. The hypothesis is that a multi-tiered gateway architecture will provide a more resilient and scalable system in which recovering from single failure points is done more quickly.
+
+\subsection{Routing Protocol}
+To analyze performance of the routing protocols, we will analyze number of packets transmitted, number of packets dropped, delay within the wireless network, and memory usage. We will investigate the changes in bandwidth, latency and throughput to see trade-offs with each routing protocol. 
+
+\subsection{Device Handshake}
+For device to device authentication, we will measure the amount of resources necessary for authentication including storage space, memory, and time to authenticate. We will also analyze the security of the handshake.
+
+\subsection{System Monitoring and Security}
+For device security, we will measure the amount of time it takes to detect an intrusion and the amount of time that is required to recover. Baseline measurements will include the number of packets and the packet transmission rate, number of correctly functioning devices, the amount of resource in use in each device, etc. The goal is to demonstrate a significant improvement over current detection and recovery time, and minimize system interruption due to a malfunction. 
+
+Upon detection of an each fault, we use collected data to determine who or what caused the fault. We will explore the time, resources, and quantity of data needed to determine who or what cased the failure.
+
+
+\subsection{Machine Learning}
+To measure the success of our neural networks, we will monitor the amount of time to compute each network. We will compare the time, as well as success in prediction, to determine the whether creating the network sequentially, in parallel over the CPU, or parallel of the GPU.  
+
+We also will measure the number of false positives, false negatives, incorrect predictions and correct predictions to determine the success of the model. A false positive is defined a determining an anomaly is not an anomaly. A false negative is defined as a correct process being flagged as an anomaly. Our intention is to minimize the number of false positives and false negatives within our system.
+
+
+\subsection{Summary}
+As we test our systems, we will measure system performance including latency, resources, and successful packet transfers. To examine our active monitoring, we will measure the number of positive detections, as will as, analyze the false positive and false negatives within the system. The goal is to determine the trade-offs between performance, security, and resiliency as the system scales up in size.
+
+\end{document}

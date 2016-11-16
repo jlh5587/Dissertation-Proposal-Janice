@@ -1,0 +1,33 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+%\section{Challenges and Opportunities}
+
+In IoT/CPS system, there are several challenges that must be addressed. As the system scales there becomes a challenge due to additional latency in packet transfer. It is necessary to maintain low latency in an effort to have a responsive system to ensure adequate QoS. Additional challenges exist in managing the low resources in edge devices efficiently. Low resources include limited memory, low power, limited storage, and slower processing. Identifying a means of establishing trust between these low resource edge devices and the gateway provides an opportunity for additional effective methods of establishing trust.
+
+
+\section{Current Limitations and Problems}
+
+When analyzing current IoT systems, several limitations exist including weakness in security, connecting heterogeneous devices, and lack of system-wide resiliency. Below we further investigate each of these limitations. 
+
+
+\subsection{Weakness in Security}
+IoT Security is universally weak. Many implementations of IoT systems treat security as an afterthought \cite{techcruch-security}. This causes difficulty in adding security measures later because underlying code and architecture are not designed correctly. Many security experts also believe security measures are actively resisted and circumvented \cite{techcruch-security}.
+
+In a survey conducted by HP in 2015, they found that 80\% of devices, along with their application components, failed to require passwords of a sufficient complexity and length \cite{hp-security}. One specific problem is there is a lack of light-weight, secure hand-shake protocols between IoT devices and gateways. This means that either devices must be or are made larger than necessary to use heavier protocols or the protocols that are being used are simpler to hack.
+
+A second problem is IoT systems rarely contain alerts for detection of intrusion or malicious activity. This means that if malicious activity or intrusions occur and do not cause a device failure, it will take longer to detect because there are no automated detection techniques implemented across the system. 
+
+A third weakness in IoT security is a limited quantity of methods for performing forensics investigation to determine who or what caused an intrusion. From previous research we have determined that there is a need to adapt current tools for IoT forensics in a effort to perform forensics investigation with limited data from the physical devices while waiting for data from the cloud \cite{DBLP:conf/colcom/OriwohJES13}. 
+
+\subsection{Heterogeneous Systems}
+Many IoT systems require heterogeneous devices can contain different types of sensors, sensor data, networking, and data transfer rates. Chipset and device specifications are also different. Since there is no standard in architecture or networking, it can become extremely difficult to connect devices together. There are also limitations in current routing algorithms to balance how the data transfers between each of these different protocols and devices.
+
+\subsection{Lack of Resiliency}
+
+Many systems contain numerous single failure points due to single gateway design. This means edge devices talk to a single gateway and the single gateway talks to the cloud. This provides a single failure point within a system. A lack of sensor redundancy can also cause failures due to sensors breaking or malfunctioning. 
+
+
+
+\end{document}

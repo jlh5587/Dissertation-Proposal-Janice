@@ -1,0 +1,59 @@
+\documentclass[../main.tex]{subfiles}
+
+
+
+
+\begin{document}
+This dissertation focuses on developing a secure, scalable, stable, resilient IoT Architecture by investigating single-tier or multi-tier gateway architectures, determining secure device handshakes between devices, and using machine learning to detect anomalies and determine who or what caused the anomaly. The following research questions drive the activities proposed:
+
+\begin{enumerate}
+    \item Can a multi-tier gateway provide the framework for a more resilient and scalable architecture?
+
+We will investigate using a multi-tier gateway versus a single tier gateway to analyze the difference in resiliency and scalability. A single-tier gateway architecture means each edge device is connected to a single gateway level, then the gateway connects to the cloud. A multi-tiered gateway architecture means edge devices would be connected to one or more gateways for redundancy and each gateway will connect to a higher tier gateway, based on the number of tiers within the design. This means if gateway failures occur, a second tier gateway exists to which the device can connect. In theory, this would allow for scaling and resiliency. 
+
+    \item What are the optimal number of gateways and tiers of gateways based on the number of end devices?  
+    
+As we investigate the use of a multi-tier system, we will also research the benefits or disadvantages of the number of tiers within the IoT architecture. For instance, a four-tier architecture might provide a more resilient system, however, the cost of the system might make it undesirable for industry applications. We will analyze the trade-offs in cost, performance, and resilience to define a means of optimizing number of tiers and gateways based on the number of edge devices.
+
+
+    \item Can certificates be used to provide a lightweight handshake between edge devices and gateways?
+
+The method in which edge devices and gateways authenticate should be lightweight, stable, and secure. Certificates can provide a method for handshakes between the devices. We intend to investigate the use of certificates as an option for a lightweight handshake, and determine its relevance in an IoT system.
+
+
+    \item Can performance be maintained throughout the system as the number of devices increase?
+
+System performance should be maintained or minimally impacted as more devices are added. Network communication and packet transfer rate is one of the important aspects to be investigated as more packets flood the gateways. Within the gateway we intend to investigate resource usage including processing speed and network traffic as more edge devices are added to the system. For each edge device, we will examine the number of packets sent versus received by gateway as more devices are added. 
+
+    \item Can a gateway or group of gateways be used to make decisions regarding where edges devices should connect to create a more resilient system?
+    
+We will investigate the capabilities of a gateway or group of gateways to determine how edge devices traffic should be routed by making informed decisions based on device location, data frequency, and data redundancy. As the system scales, we intend to provide analysis as on how a coalition gateways can be used to make decisions to provide more reliable data communication and route traffic in an efficient manner throughout the system.
+
+    
+
+    \item Can the use of parallel processing in each gateway allow for data aggregation and device checking to be performed more quickly for a more secure system?
+    
+In previous work, we demonstrated that with GP-GPU computing within the gateway we were able to compute a simple regression model up to ten times more quickly than within the 4-core arm processor. Given our results, we intend to investigate further the use of GP-GPU programming within the gateway to perform more complicated computations in an effort to provide a secure system.     
+
+    \item Can the use of machine learning be used to monitor the health and performance of a system in an effort to detect anomalies or failures in the system? 
+
+Machine learning is an increasingly important field within IoT. Currently, most machine learning within an IoT system is to perform an action, not monitor the health of the system. We propose using machine learning within the gateways to monitor the health of the system by learning the system. This would allow the gateways to detect anomalies within the system and alert the user.   
+
+
+    \item How do the machine learning and data aggregation scale as a system scales?
+
+As we continue to add more devices to the system, we will analyze how scaling effects both the machine learning and data aggregation within the gateway. We monitor the system performance in an effort to determine advantages and disadvantages to adding devices. 
+    
+    
+    \item What data should be collected at anomaly or failure detection for forensics to occur?
+    
+Upon detecting an anomaly, reporting appropriate information back to the user to investigate what has occurred is essential. This will allow for the user to determine what type of error has occurred, whether someone caused it, and how it can be fixed. As we build anomaly detection into the system, we also intend to determine what appropriate information we should provide to the user to help enable quick response to fixing the error.
+    
+
+
+\end{enumerate}
+
+
+As we analyze and answer these questions, we maintain the goal of developing an architecture for IoT/CPS systems that is secure, scalable, and resilient. 
+
+\end{document}

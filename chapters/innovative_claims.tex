@@ -1,0 +1,30 @@
+
+\documentclass[../main.tex]{subfiles}
+
+
+
+
+\begin{document}
+
+
+%\section{Innovative Claims}
+
+In examining the scalability, resiliency and security of IoT systems, there are key innovations we are investigating. 
+
+\subsection{Need for HPC in IoT}
+Given that IoT systems are a group of devices clustered together, HPC principles can be adapted including parallel computation of edge device data within the gateways. We investigated the use of parallel computation of edge device data and found that in most cases parallel computation outperformed sequential computation by up to a factor of 10 times, which has head room over dedicating all the ARM cores to the problem by at least a factor of 2.5.
+
+% this is logically co-equal or more equal than HPC, which is a means
+% to your end...
+We also propose that machine learning can be implemented within the gateways and used to learn the healthy state of the system. By continuous monitoring of the system, as the system grows, the model can be recalculated for the new state of the system. This can allow for gateways to provide device checking and security to the IoT system. We believe this will provide a resilient system by reducing single failure points, providing redundancy, and implementing a self-healing network. 
+
+\subsection{Lightweight Handshake for ARM devices}
+
+We propose the use of certificates to provide a lightweight handshake between end devices and gateways, as well as adapting algorithms for secure handshakes between gateways and end devices. This will allow smaller ARM architecture devices to authenticate securely to gateways. Secure authentication is necessary for a trusted IoT system.  
+
+
+\subsection{Multi-Tiered Resilient Architecture}
+
+Many current IoT/CPS implementations lack the redundancy and resiliency necessary for large scale implementations. We are convinced that a multi-tiered architecture will provide resiliency and scalability to a system by allowing reduced single failure points and providing an infrastructure that can monitor itself. A smart gateway or coalition of gateways can be used to route traffic in an efficient manner from edge devices to lower latency, ensure quality of service (QoS)\nomenclature{QoS}{Quality of Service}, and provide ability to reroute traffic as necessary to maintain an efficient, resilient system. 
+
+\end{document}

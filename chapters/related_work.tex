@@ -1,0 +1,113 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+
+The following sections overview the current literature in each area of focus related to this dissertation. 
+
+
+%\section{IoT Devices, Evolution, Scale-up}
+
+
+
+%{\bf we need to hear about the state of the art of IoT}
+
+\section{Cyber-Physical Systems}
+
+Cyber-Physical Systems are systems of embedded devices that are interact with the physical world. The physical world provides the information that is necessary for the system to operate \cite{banerjee2012ensuring}. For instance, with unmanned vehicles integrated intelligent roads are used for navigation \cite{shi2011survey}. Below we investigate the current state of the art in CPS and CPS challenges including security concerns.
+
+\subsection{State of the Art}
+CPS are currently evolving and expanding. Many applications are currently in the research and development stage. Smart healthcare and medicine is one leading area of CPS. Smart healthcare includes electronic patient record initiatives, home care, intelligent operating room, image-guided surgery and therapy, and fluid flow control \cite{baheti2011cyber,shi2011survey, banerjee2012ensuring}. GE currently has an initiative for smart healthcare including smart cardiac and smart dose \cite{ge_health}.
+
+Next Generation Air Transportation Systems are CPS systems that impact the future of flight and aviation \cite{baheti2011cyber}. These systems include the use of integrated flight deck systems, functionality to achieve greater safety and become more efficient. 
+
+Another major application of CPS is the Smart Grid. IBM is currently investigating Smart Grid technologies \cite{ibm_grid}. The goal of the smart grid is to provide an infrastructure capable of handling distributed generation, renewable energy sources, electric vehicles, and demand-side management electricity \cite{6032699}. There are seven key requirements that were identified by the Department of Energy for the smart grid to meet demands. These seven are self healing, motivates and includes the consumer, resists attacks, provides power quality, accommodates generation and storage options, enables markets, and optimizes assets for efficient operation \cite{6032699,DOErequire}. Smart Grid is a CPS with far reaching impact and purpose, however, there are many challenges to a secure and reliable smart grid. 
+
+\subsection{CPS Challenges}
+
+Many challenges still exist within CPS. First, they interact with the physical world and can make changes to the physical environment. These changes must maintain a safety requirements of the system \cite{6899124}. The physical world introduces the physics of timing constraints and these must be obeyed \cite{6899124}. Second, CPS are distributed systems \cite{6899124,shi2011survey}. These systems can also be mobile. The mobility adds additional challenges dues to Internet access and connectivity, availability of energy, and the context of location \cite{7471348}. Third, CPS are vulnerable to many security threats. These threats include cyber criminals, activists, disgruntled employees, or others who intend to crack the system \cite{cardenas2009challenges}. Other security threats include device authentication, adapting to various environments, preserving privacy including sensor data and location information \cite{7471348,cardenas2009challenges,baheti2011cyber}. Fourth, systems must be resilient and reliable. With the mission critical nature of CPS, it is essential for these systems to be resilient, reliable and secure.
+ 
+
+\section{Security}
+
+We investigate three key areas for use within IoT security: machine learning, network/device security and forensics.
+
+
+\subsection{Using Machine Learning to Secure Systems}
+
+In \textit{Computer Security and Machine Learning:
+Worst Enemies or Best Friends?}, Rieck investigated the problems, challenges and advantages of using Machine Learning to help secure a system\cite{6092778}. According to Riech, there are five factors that impact the efficacy of using machine learning for securing a system: effectively, efficiency, transparency, controllability, and robustness. One area of research in which machine learning is effective in practice is intrusion detection within a network \cite{6092778}. Another promising area discussed is automated analysis of threats. Machine learning can be used to provide an instrument for accelerating threat analysis. 
+
+The effectiveness of machine learning within networks and accelerating threat analysis suggests machine learning could be an effective manner of securing an IoT system. We intend to further this study by implementing neural networks to secure a system.  
+
+
+
+
+\subsection{Network and Device Security}
+
+In \textit{Research on the Basic Characteristics, the Key Technologies, the Network Architecture and Security Problems of the Internet of Things}, Xingmei, Jing, and He introduce the key concepts, network architecture, and security problems within the Internet of Things \cite{6967233}. IoT requires intelligent processing and reliable transmissions within the network. To provide this, the network architecture contains three  layers: the application layer, the transport layer, and the sensing layer. The application layer contains the link between the user and the Internet through intelligent application, (for example, intelligent architecture or intelligent home furnishings). The application layer uses machine learning, data mining, data processing, and other analytics to process information from the system and provide an output. The transport layer consists of various networks including Wi-Fi, Bluetooth, ZigBee, and 802.15.4. The transport layer contains the gateways that process the information and send it across the network. The sensing layer contains end devices that are composed of a variety of sensors and actuators. The data from these sensing layer is sent through the transportation layer to the application layer for analysis. 
+This approach provides a framework for reliable communication, however, as noted by the authors, there are many security threats present in the transport layer. Our approach is to add machine learning within the transport layer to help determine if there are interruptions in the data transfer and to monitor the end devices from the sensing layer. 
+
+One key feature of IoT systems is they contain a heterogeneous combination of networking techniques and devices. Grabovica, et al., provided a summary of networking techniques for connecting IoT devices in \textit{Providing Security Measures of Enabling Technologies in Internet of Things (IoT): A Survey} \cite{7513647}. There are four techniques summarized: ZigBee, Bluetooth, RFID, and WiFi. ZigBee, which is a personal area network created by the ZigBee alliance, is placed on top of the physical and MAC layer of the 802.15.4 stack. This provides an application layer and network layer. The security within the ZigBee protocol is provides the MAC layer of 802.15.4 protocol. Additionally, there is cryptography which is based on a 128-bit key and AES encryption. Bluetooth is an open standard for short range radio frequency that was created in 1994 \cite{bluetooth}. Bluetooth provides the developer with four security modes to choose from and three encryption modes. For a secure Bluetooth connection, authentication, encryption, and authorization are required. There are threats against Bluetooth technology. The authors mentioned Bluejacking, Car Whispering, and Bluesnarfing are examples of threats that occur by exploiting a Bluetooth connection. Radio Frequency Identification \nomenclature{RFID}{Radio Frequency Identification} is used for automatic identification of people or objects. There are two types of RFID tags, active and passive. Active require power a source and passive do not. There are three frequency ranges that RFID tags operate on, four security modes, and three levels of encryption. Potential threats against RFID tags include clandstien tracking or scanning, skimming, and cryptography weaknesses. The final technology discussed by Graboviac, et al., was WiFi. WiFi enables access to the Internet through radio signals. WiFi is enable with the ability to select 6 different security modes and four levels of encryption. The main threats against WiFi include weaknesses in WEP encryption, search wireless signal attacks, and eavesdropping. As noted, there is no singular secure method of communication between devices. Given the difference in each communication method, there is a need to monitor communication in an effort to provide a more secure system.   
+
+One method of securing communication includes encryption in communication. IoT devices are lightweight and therefore need lightweight encryption methods \cite{7528258}. In \textit{Pass-IoT: A Platform for Studying Security, Privacy, and Trust in IoT}, Arseni, et al., presents a testbed for implementing IoT systems and enhancements to existing encryption algorithms are reviewed. The encryption techniques reviewed by the authors in Present, Tea, and Trivium. Present is substitution based block cipher that is implement for lightweight and super lightweight cryptography. Tea was developed by Roger Needham and David Wheeler. It is a block cipher with 64-bit data block sizes and 128-bit key. Previously there were exploits within the key schedule that were addressed. Trivium was designed by exploring how stream ciphers can be simplified. The goal was to simplify stream ciphers without sacrificing security, speed, or flexibility. Given this, Trivium is a lightweight synchronous stream cipher that generates up to 264 bit stream, 80 bits of secret key, and 80 bits of initial value. These techniques allow us to further analyze methods for securing device handshakes and communicating between the devices. We also propose further investigation of lightweight encryption techniques and certificates to securely connect edge devices to gateways. 
+
+Once devices connect securely, it's important the devices themselves are secure. In \textit{Hardware Security Assurance in Emerging IoT Applications}, Dofe, et al., reviewed to hardware attacks: hardware trojans and side-channel analysis attacks \cite{7538981}. Hardware Trojans are malicious modifications on the original chip that are used to corrupt the chips normal operation. Side-channel analysis attacks occured when side channels are analyzed of a cryptographic device to guess the secret key. Power is one side-channel that is often analyzed. To address these issues, the authors propose the use of dynamic permutation method. The dynamic permutation method changes the original order of the information received by the sensor. Due to the original order being changed, attackers can't precisely find a predefined condition to perform a Trojan hardware attack. This approach provides a method for reducing hardware trojans and side channel attacks. We propose the addition of machine learning to such a model could help detect not only these forms of attacks, but other attacks within an IoT system as well.
+
+
+In \textit{Neural Network Approach to Forecast the State of the Internet of Things Elements}, Katenko, et al., investigated the use of neural networks to forecast the state of an IoT element \cite{7190434}. They're approach combined a multilayered perceptron network along with a probabilistic neural network. They discovered that by using the multilayer perceptron network to look at similar values throughout the past, they could then use a probabilistic neural network to determine the state of the element. They found they were able to reduce the labor costs of the IoT administration and emergency resolution through this technique. 
+
+While their technique did reduce labor costs and allowed for monitoring and forecasting an element in an IoT network, the need to forecast the entire state of an IoT system was still needed. We propose the use of machine learning techniques as mentioned above in both of the gateways to monitor subsystem components, and in the application layer of the whole system to monitor the state of the entire system.
+
+
+\subsection{Forensics}
+Forensics for IoT systems can be challenging. Recent studies have suggested new methods for DF in IoT systems to handle the short comings in current techniques. One major concern in IoT forensics is jurisdiction \cite{DBLP:conf/colcom/OriwohJES13}. Currently, most IoT data is sent to cloud storage which can be in a different region or state from the actual system. If a crime does occur, the data must be subpoenaed from the cloud service provider. Waiting on the completion of paperwork and appropriate subpoenas can have a negative impact on the investigation because of the loss of time. To help minimize the wait time and provide improve forensics, several models have been suggested. In \textit{FAIoT: Towards Building a Forensics Aware Eco System for the Internet of Things}, Zawoad and Hasan propose a Forensics-aware IoT (FAIoT) \nomenclature{FAIoT}{Forensics-Aware IoT} model for support forensics in IoT systems \cite{DBLP:conf/IEEEscc/ZawoadH15}. Within their model, constant monitoring occurs for each device and evidence is stored in a secure shared repository. This allows for the evidence to be access using API's. A second approach to IoT forensics was suggest by Oriwoh and Sant in \textit{The Forensics Edge Management System:A Concept and Design} \cite{DBLP:conf/uic/OriwohS13}. Within the Forensics Edge Management System (FEMS) \nomenclature{FEMS}{Forensics Edge Management System}, smart devices within a home autonomously providing basic security and
+forensic services by monitoring itself and reporting back to the user. 
+
+Both approaches that there is a need for continuous monitoring within an IoT system. With our proposed security approach of using machine learning to monitor the health of the system, we also propose the addition of identifying key data elements within the IoT system that would be stored locally to help aid in forensics investigations. 
+
+
+\section{Scalability}
+
+When studying scalability, we investigate the current use of scalability within high performance computing and within IoT systems. The following sections provide a brief overview of the literature in each of these areas.
+
+\subsection{Scalability in High Performance Computing}
+
+In the study of scalability, Amdahl's law is a key area of focus. Amdahl's law focuses on the speedup of a program given the proportion of the program that can be parallelized\cite{dr-dobbs, 5289177}. A second law of focus in scalability is Gustafson's law which workload can scale up and execution time remain the same based on the addition of parallelization of processing\cite{dr-dobbs, umn, 5289177}. Amdahl's law and Gustafson's law provide the foundation of determining the effectiveness of scaling within a system.
+
+
+In \textit{Reliability-Aware Scalability Models for High Performance Computing}, Zheng and Lan investigate the impact of failures on Amdahl's law and Gustafson’s law \cite{5289177}. By extending Amdahl’s law and Gustafson’s law, the study was able to derive a s study reliability-aware scalability models. Trace simulations were used to determine the accuracy of the models. The trace logs, which also contained failures, used with the enhanced Amdahl's law and Gustafson's law was able to better represent application performance and scalability when failures are present. They were also able to demonstrate models that provided proactive failure prevention by using process mitigation and provided a fast recovery. 
+
+It is necessary for IoT systems to have the ability to provide faster recovery and provide proactive failure prevention. By adding additional information within our study, we have the ability to use the extended models provided by Zheng and Lan to analyze our ability to prevent and recover as our system continues to scale.
+
+
+\subsection{Scalability in IoT Systems}
+In \textit{Internet of Things Scalability: Analyzing the Bottlenecks and Proposing Alternatives}, Gomes, et al., proposed (i) a microbenchmark for to evaluate IoT systems; (ii) a preliminary architecture redesign for future IoT middleware \cite{7002114}. For the proposed microbenchmark, the measure of scalability was performed by combining data regarding different number of threads, number of requests per thread, access analysis of components, and different load situations. Fosstrack middleware was implemented to analyze performance. The results demonstrated that CPU usage, network traffic, and response time increased as the number of threads and requests increased. The bottlenecks in the experiment included the number of process. The ALE module implemented by the researched could only handle 200 threads simultaneously. 
+
+Given their results, changes were proposed to be included in IoT middleware. First, the use of NoSQL database should be included because it can provide a solution for for handling large values of data, fault tolerance, scalability, and high availability. Second, they suggested the use of High Performance Computing (HPC) including parallel processing within the module to handle more simultaneous requests. Finally, provide templates for virtual machines for capturing data and querying interfaces. Templates can be used to to instantiate new prepared virtual machines. 
+
+In \textit{A Scalable Distributed Architecture Towards Unifying IoT Applications}, Sarkar, et al., proposed a scalable distributed architecture to address issues of scalability, interoperability, and heterogeneity within an IoT application \cite{6803220}. The approach divides IoT architecture into a virtual object layer, composite virtual object layer, and a service later. The first layer, virtual object layer, is responsible for virtualizing the physical objects. By virtualizing the objects, the inherit difficulties provided by heterogeneity. The second layer, composite virtual object layer, groups like objects and to perform a unified task. The final layer, the service layer, is respondsible for creating and managing services. 
+
+We believe Gomes, et al., proposal for HPC use in the middleware will provide the increased scalability and Sarkar, et al., provides an overview of a layered architecture to address issues of scalability and heterogeneity. We intend to combine HPC within the gateways to perform more complex data calculations, parallel machine learning, and adding the ability to increase the number of edge devices each gateway can handle. We believe blending these techniques will provide a scalable IoT architecture with the ability to scale from a few devices to thousands of devices.
+
+
+
+
+\section{Resiliency in IoT Systems}
+
+Resilience is the ability for an IoT system to resist and recover from a malfunction. In \textit{On Resilience of IoT Systems: The Internet of Things}, Delic defines resilience, resilience in IoT systems, and methods for research in resilience in the future \cite{Delic:2016:RIS:2891279.2822885}. Delic identifies resiliency in a system as the capability to resist external perturbances and internal failures, recover and enter a stable state, and adapt structures and behaviors to constant change. The article proposes that resiliency in IoT systems should be studied in at least three large domains including infrastructure, nomadic users, and digital economy \cite{Delic:2016:RIS:2891279.2822885}. 
+
+In \textit{Enabling Resilience in the Internet of Things}, Benson proposes a middleware framework for resilient and stable communications between IoT devices and services \cite{7134032}. Previous research conducted by Benson investigated creation of testbeds including using accelerometers to detect earthquakes on the University of California, Irvine Campus. While creating testbeds there were several lessons learned. The use of MQTT lacked range and made connecting to specific sensor readings difficult. Off the shelf equipment caused inaccurate readings and multiple device failures. The proposed approach is to investigate resilient communication and establish location aware overlay network, develop a resilient data exchange middleware and resilient application deployment. 
+
+
+This dissertation will have a focus on resiliency and stability within IoT infrastructure. There will be focus on identifying methods of resisting and recovering from internal and external failures and adapting to constant changes within the structure and behaviors in the system. Benson's approach is to create a middleware framework to address each issue \cite{7134032}. We propose the use of machine learning to be included within the gateway layer. Machine learning will allow for adapting to changing system structure and devices. This approach would include the use of incorporating an ARM multicore plus GP-GPU capability to enhance performance for data-parallel computations. 
+
+\section{Summary}
+
+Extensive research is occurring in IoT/CPS systems. As these systems scale up, scaling occurs within the gateway to increase the amount of computations that occuring. Scaling also occurs within the number of edge devices that the system can maintain and process information from. There is the need to achieve low latency during data transfer and maintain privacy of data. 
+
+There is a need throughout these systems for security. Providing security within a device and network includes the use of lightweight certificates, encryption techniques, and machine learning. Lightweight certificates are used to ensure trust between the edge devices and gateways. Encryption techniques provide the ability to ensure data privacy is ensured as data is transferred from edge devices and gateways. Along with providing privacy of the data, neural networks can be used to probabilistically predict the next state of an IoT application. Using Neural Networks for security can be expanded to include the ability to detect anomalies and provide active monitoring. 
+
+Along with scalability and security, resiliency is required to resist and recover from a malfunctions. If a malfunction does occur, it is necessary in IoT/CPS systems to be able to return to a stable state. There are proposals for this to occur within middleware and application deployment. We propose that the additional of multi-tiered architecture will allow for a reduction of single failure points and allow to recover more quickly if an error does occur.
+
+\end{document}

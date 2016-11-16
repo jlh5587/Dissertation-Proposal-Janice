@@ -1,0 +1,87 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+
+
+\subsection{The Internet of Things}
+%
+In 1999, Kevin Ashton coined the term {\em Internet of Things} for a presentation for Proctor and Gamble when linking RFID technology in Proctor and Gamble's supply chain to the Internet \cite{iot-rfid-journal,newsweek-iot}. Ashton used the term {\em IoT} to describe the network connecting devices together to the Internet \cite{smithsonian-iot}. IoT has subsequently achieved 
+a broad reach and garnered a broader still definition. Consumer IoT includes the connection of a device to the Internet including smart phones, watches, thermostats, refrigerators, alarm systems, cameras, cars, lights, etc \cite{forbes-iot-exp,iot-analytics-def,7002114}. Industrial IoT (IIoT) \nomenclature{IIoT}{Industrial Internet of Things} is the use of IoT devices in industries including factories, companies, plants to increase revenues by boosting production \cite{iiot-accent}. IoT has grown drastically since it's notional inception in 1999. For instance, between 2014 and 2016, it is estimated that there was a 68\% increase in the number of devices connected online \cite{gartner}. It is expected that between 2016 to 2020 there will be a further increase of 225\% with an estimated 20 billion devices connected online \cite{gartner}. 
+
+
+\subsubsection{System Examples}
+
+IoT environments are clearly becoming increasingly popular, and they are moving to large-scale adoption. Two fast growing IoT areas are Smart Lighting and Smart Hospitals. The following section explore these two ``verticals'' and the need for resiliency, security and stability for such applications.
+%
+
+\paragraph{Smart Lights}
+%
+Smart Lighting has becoming increasingly more accessible and popular in businesses and homes. Smart Lighting is rapidly growing and it is estimated it will be worth \$8.14 billion by 2020 \cite{smart_light}. According to Digital Lumens, Smart Lighting is defined as LED fixtures with intelligence and sensors whose data can be harvested for a range of purposes, primarily to control when and where light is on \cite{smart_light_2}. 
+
+Smart lighting is an increasingly popular area of IoT. As more fixtures installed in the workplace and home are smart, the need for increased security and scalability become correspondingly more important. There is a need to ensure that as device interconnect, they connect both securely and that each device is a part of a trusted system. Given these needs, a scalable architecture, device handshakes, lifecycle management, low latency between commands, and system monitoring are important needs for such deployments.
+
+\paragraph{Common Large-scale IoT Themes}
+% see if you can refine this section.
+The following are common themes of large-scale IoT deployments, adding directly to in many cases the complexity of supporting scale, security, and resiliency.  These include:
+\begin{itemize}
+\item geographic distribution ({\em e.g.}, buildings, campuses, cities)
+\item mobility and transience of some of the devices
+\item redundancy and fungibility of certain ubiquitous devices (like temperature sensors)
+\item uniqueness or low-redundancy of high value devices
+\item inaccessibility of many devices
+\item low-resource, low power devices are in the vast majority
+\item heterogeneity of device types, sources, purposes, and ages.
+\end{itemize}
+
+
+\subsection{Cyber-Physical Systems}
+
+CPS are closely integrate, context aware, mission critical systems that interact with the physical world \cite{banerjee2012ensuring, shi2011survey, baheti2011cyber}. These distributed systems are used in Healthcare and Medicine, Electric Power Grid, Unmanned Vehicles, and Next Generation Air Transportation Systems \cite{shi2011survey,baheti2011cyber}. Edge devices within a CPS actuate and affect the physical environment. One example of CPS are Healthcare and Smart Medicine.  
+
+\paragraph{Healthcare and Smart Medicine}
+%
+In view of the rate in which technology has advanced, healthcare providers are beginning to adopt addition technology in their environment to help expedite service, improve patient care, and provide additional assistance to patients as needed. In 2014, Healthcare Design undertook an overview of how technology could be used to create a Smart Hospital \cite{smart_hospital}. Healthcare Design determined that currently planning for technology in new buildings or renovations is necessary for hospitals \cite{smart_hospital}. A Smart Hospital is a hospital that includes the following characteristics \cite{smart_hospital, shi2011survey}: 
+%
+\begin{itemize}
+    \item Check-in Kiosks
+    \item Connective Furniture
+    \item Hybrid Exam/Consult Modules
+    \item Smart operating rooms
+    \item Telemedicine 
+    \item Electronic Medical Records Scanning Room
+    \item Interactive Features to promote movement in patients
+\end{itemize}
+
+Within this particular environment, scalability, resiliency, and security are imperative to ensure the best care for patients and protection of patient information.
+
+\subsection{Fog Computing}
+
+A fog architecture is an architecture organization in which local clusters of devices are used in conjunction with the cloud to expand storage and networking services between the cloud and edge devices \cite{DBLP:conf/aina/PrazeresS16}. This brings computing power down from the cloud service to the gateway and edge device layer. This allows for scalability to occur more easily due to increased architecture at the gateway layer.  
+
+
+\subsection{High Performance Computing}
+%
+High Performance Computing (HPC)\nomenclature{HPC}{High Performance Computing} is the use of parallel processing to running advanced programs, particularly in clusters of devices. In HPC, parallel computation of data provides a methodology for performing computations on large data sets across multiple threads in multiple CPUs and/or General Purpose Graphical Processing Units (GP-GPUs). Parallel computing has applications from data mining to engineering applications including combustion engines and high-speed circuits \cite{parallel_computing}. 
+
+\subsection{Machine Learning}
+%
+Machine Learning is an area of Artificial Intelligence (AI) \nomenclature{AI}{Artifical Intelligence} in which computer programs are enabled to learn from experience, examples, and analogies \cite{AI_book}. As learning occurs, the capabilities within a program 
+become more intelligent and the program becomes capable of making informed decisions. 
+Within machine learning, two of the most popular approaches are artificial neural networks (ANN) \nomenclature{ANN}{Artificial Neural Network} and genetic algorithms.
+
+ANNs mimic the neurons and synapses within the brain to transfer data for communication, learning, and decision making \cite{AI_book}. Current ANNs are much simpler than the brain, but still follow the same principles. Within the brain, neurons are a dense set of interconnected nerves that are connected by synapses. The synapses send information between the neurons. The neurons learn from the information and are used for decision making. Within the brain there are approximately 10 billion neurons and 60 trillion synapses \cite{AI_book}. Within a computer, neural networks mimic this structure for learning where neurons are mimiced by nodes and synapses are mimiced by weighted connections. Each ANN contains an input layer of nodes connected to additional hidden layers using weighted connections then to an output layer. The hidden layers of neurons within an ANN help provide additional tailoring of the learning. Each level adds additional weights to the connections that provide the basics of long-term learning within the system \cite{AI_book}.
+
+The first neural network was built in the 1950s by two Harvard students, Marvin Minsky and Dean Edmonds \cite{AI-modern-app}. Minsky and Edmonds' ANN simulated a rat learning to navigate a maze. Since 1950, neural networks have expanded from single perceptron learning, to multilayer perceptron learning algorithms. Several major advancements in ANN occurred in the 1980's. One major advancement was backpropogation was rediscovered. The backpropogation learning algorithm allowed for multilayer neural networks to learn and has become one of the most popular learning algorithms for multilayer neural networks \cite{AI_book}.  A second major advancement in ANN were recurrent neural networks (RNN) \nomenclature{RNN}{Recurrent Neural Network}. A RNN adds feedback loops to the network that connect the output to the input \cite{AI_book}. These feedback loops allows the RNN to form short term memory and learn sequences \cite{mikolov2010recurrent}. In 1997, Hochreiter and Schmidhuber proposed Long Short-Term Memory(LSTM) \nomenclature{LSTM}{Long Short-Term Memory}, which provide the addition of a memory cell with gradient based learning within the feedback loop to allow for long term memory to occur within a RNN \cite{DBLP:journals/neco/HochreiterS97}. This approach allows for a long term memory as well as short term memory to occur as the system learns sequences. This can be used in time-series predictions, robotics, handwriting prediction, and many other applications.
+
+Now, artificial intelligence and neural networks are present in many technologies including medicine, image compression, and stock market analysis \cite{nn-apps}. ANNs are used within IoT systems to monitor the state of IoT devices and to make informed decisions \cite{7190434}. We propose the addition of neural networks to help secure an IoT system.
+
+\subsection{Active Monitoring and Attack Prevention}
+
+Active monitoring is the accomplished when a tool or hook is placed within a system and when the execution reaches the hook it will cause and interrupt and control will be handed to the security program \cite{monirullares}. Active monitoring can detect anomalies as a system runs. This allows for detection of intrusions or anomalies to provide the ability to prevent attacks within a system.
+
+\subsection{Digital Forensics}
+
+When an anomaly or intrusion  occurs, there is a need to determine what or who was the cause. This can be done with digital forensics. For an IoT system, there are two areas of digital forensics to investigate: device forensics and network forensics. Device forensics includes forensics of device memory and device storage. Network forensics focuses on network intrusion detection, attack analysis, and collecting evidence using network packets and other network analysis techniques \cite{6414014}. Combining the device forensics and network forensics within an IoT system allows for comprehensive forensics of IoT systems.
+
+\end{document}

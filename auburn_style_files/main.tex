@@ -1,0 +1,119 @@
+\documentclass[]{report}
+\usepackage[utf8]{inputenc}
+%\usepackage{auphd} 
+\usepackage{ulem}       % underlining on style-page; see \normalem below
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[margin=1in]{geometry}
+\usepackage[toc,page]{appendix}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[tracking=true]{microtype}
+\usepackage{subfiles}
+\usepackage{blindtext}
+\usepackage{hhline}
+\usepackage[intoc]{nomencl}
+\usepackage{setspace,lipsum}
+\renewcommand{\nomname}{List of Abbreviations}   	       
+\makenomenclature 
+
+\graphicspath{ {images/} }
+
+
+
+\titleformat{\chapter}[display]{\Large\bfseries}{Chapter \thechapter}{2pt}{\Large}
+
+
+% May want theorems numbered by chapter
+\newtheorem{theorem}{Theorem}[chapter]
+
+% Put the title, author, and date in. 
+\title{M-TRA: A Multi-Tiered Resilient Architecture for Cyber-Physical Systems}
+\author{Janice Ca\~nedo} 
+\date{October 2016} %date of graduation
+
+
+
+\begin{document}
+\pagenumbering{Roman}
+\maketitle 
+
+\subfile{chapters/abstract.tex}{}
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+%\printnomenclature[0.5in] %used for the List of Abbreviations
+     % All done with roman-numbered pages
+
+\normalem       % Make italics the default for \em
+
+\chapter{Overview}  % Use \\ for long titles 
+
+\pagenumbering{arabic}
+\subfile{chapters/overview.tex}{}
+
+%\subfile{chapters/areas_of_focus.tex}{}
+
+%\subfile{chapters/technology-overview.tex}{}
+
+%\subfile{chapters/challenge_opportunity.tex}{}
+
+%\subfile{chapters/statement_of_contribution.tex}{}
+
+%\subfile{chapters/innovative_claims.tex}{}
+
+%\subfile{chapters/broader_impact.tex}{}
+
+
+\section{Summary}
+
+IoT/CPS is quickly evolving and becoming integrated more in our everyday world. These systems require the ability to scale from small home automation systems to large-scale smart grids. With CPS, it is necessary that these devices and systems are secure and resilient. There is a need to investigate means to provide security within these systems including lightweight device handshakes and active monitoring for anomalies and intrusions. Along with security, resiliency within a IoT/CPS system is of concern. Resiliency requires redundancy of communication and ability to recover from an anomaly. Finally, the ability to maintain a resilient and secure system must remain be scalable as a system grows from 10 devices to 1000s of devices. The goal of this dissertation will be to address these issues and outline a scalable, resilient and secure architecture for IoT/CPS Systems.
+
+The remainder of this dissertation is organized as follows: Chapter~\ref{chap:lit} is a review of literature covering CPS, security, scalability, and resiliency in IoT/CPS systems. Chapter~\ref{chap:questions} is an overview of research questions we intend to answer during this research. Finally, Chapter~\ref{chap:app} explains the approach and metrics we will use during the research process. 
+
+
+\chapter{Review of Literature}
+\label{chap:lit}
+
+\subfile{chapters/related_work.tex}
+
+\chapter{Research Questions}
+\label{chap:questions}
+\subfile{chapters/research_questions}{}
+
+\chapter{Approach and Metrics}
+\label{chap:app}
+\subfile{chapters/approach.tex}{}
+
+\subfile{chapters/metrics.tex}{}
+
+
+{%\small
+\bibliographystyle{unsrt}
+\bibliographystyle{abbrv}
+\bibliography{chapters/references}
+}
+
+\printnomenclature[0.5in] %used for the List of Abbreviations
+     % All done with roman-numbered pages
+
+\pagenumbering{roman}
+\appendix
+\titleformat{\chapter}[display]{\Large\bfseries}{Appendix \thechapter}{2pt}{\Large}
+\begin{singlespace}
+
+\chapter*{Appendices\addcontentsline{toc}{chapter}{Appendices}}
+\subfile{chapters/publications-plans.tex}{}
+\subfile{chapters/research_questions-scoping.tex}{}
+
+\end{singlespace}
+
+\end{document}
