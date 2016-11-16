@@ -1,0 +1,70 @@
+\BOOKMARK [0][-]{Doc-Start}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Overview}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Key Architecture Attributes}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Secure Architecture}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Scalable Architecture}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{Resilient Architecture}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{Overview of Technology}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.3.1}{The Internet of Things}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.2}{Cyber-Physical Systems}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.3}{Fog Computing}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.4}{High Performance Computing}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.5}{Machine Learning}{section.1.3}% 15
+\BOOKMARK [2][-]{subsection.1.3.6}{Active Monitoring and Attack Prevention}{section.1.3}% 16
+\BOOKMARK [2][-]{subsection.1.3.7}{Digital Forensics}{section.1.3}% 17
+\BOOKMARK [1][-]{section.1.4}{Challenges and Opportunities}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.5}{Current Limitations and Problems}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.5.1}{Weakness in Security}{section.1.5}% 20
+\BOOKMARK [2][-]{subsection.1.5.2}{Heterogeneous Systems}{section.1.5}% 21
+\BOOKMARK [2][-]{subsection.1.5.3}{Lack of Resiliency}{section.1.5}% 22
+\BOOKMARK [1][-]{section.1.6}{Statement of Contributions}{chapter.1}% 23
+\BOOKMARK [1][-]{section.1.7}{Innovative Claims}{chapter.1}% 24
+\BOOKMARK [2][-]{subsection.1.7.1}{Need for HPC in IoT}{section.1.7}% 25
+\BOOKMARK [2][-]{subsection.1.7.2}{Lightweight Handshake for ARM devices}{section.1.7}% 26
+\BOOKMARK [2][-]{subsection.1.7.3}{Multi-Tiered Resilient Architecture}{section.1.7}% 27
+\BOOKMARK [1][-]{section.1.8}{Broader Impact}{chapter.1}% 28
+\BOOKMARK [1][-]{section.1.9}{Summary}{chapter.1}% 29
+\BOOKMARK [0][-]{chapter.2}{Review of Literature}{}% 30
+\BOOKMARK [1][-]{section.2.1}{Cyber-Physical Systems}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.1.1}{State of the Art}{section.2.1}% 32
+\BOOKMARK [2][-]{subsection.2.1.2}{CPS Challenges}{section.2.1}% 33
+\BOOKMARK [1][-]{section.2.2}{Security}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.2.1}{Using Machine Learning to Secure Systems}{section.2.2}% 35
+\BOOKMARK [2][-]{subsection.2.2.2}{Network and Device Security}{section.2.2}% 36
+\BOOKMARK [2][-]{subsection.2.2.3}{Forensics}{section.2.2}% 37
+\BOOKMARK [1][-]{section.2.3}{Scalability}{chapter.2}% 38
+\BOOKMARK [2][-]{subsection.2.3.1}{Scalability in High Performance Computing}{section.2.3}% 39
+\BOOKMARK [2][-]{subsection.2.3.2}{Scalability in IoT Systems}{section.2.3}% 40
+\BOOKMARK [1][-]{section.2.4}{Resiliency in IoT Systems}{chapter.2}% 41
+\BOOKMARK [1][-]{section.2.5}{Summary}{chapter.2}% 42
+\BOOKMARK [0][-]{chapter.3}{Research Questions}{}% 43
+\BOOKMARK [0][-]{chapter.4}{Approach and Metrics}{}% 44
+\BOOKMARK [1][-]{section.4.1}{Approach}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{Architecture}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.2}{Routing Protocol}{section.4.1}% 47
+\BOOKMARK [2][-]{subsection.4.1.3}{Device Handshake}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.1.4}{System Monitoring and Security}{section.4.1}% 49
+\BOOKMARK [2][-]{subsection.4.1.5}{Machine Learning}{section.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.1.6}{Summary}{section.4.1}% 51
+\BOOKMARK [1][-]{section.4.2}{Metrics}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.2.1}{Architecture}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.2}{Routing Protocol}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.3}{Device Handshake}{section.4.2}% 55
+\BOOKMARK [2][-]{subsection.4.2.4}{System Monitoring and Security}{section.4.2}% 56
+\BOOKMARK [2][-]{subsection.4.2.5}{Machine Learning}{section.4.2}% 57
+\BOOKMARK [2][-]{subsection.4.2.6}{Summary}{section.4.2}% 58
+\BOOKMARK [0][-]{chapter*.4}{Bibliography}{}% 59
+\BOOKMARK [0][-]{appendix*.5}{Appendices}{}% 60
+\BOOKMARK [0][-]{appendix*.6}{Appendices}{}% 61
+\BOOKMARK [0][-]{appendix.A}{Publication Plans}{}% 62
+\BOOKMARK [0][-]{appendix.B}{Research Questions - High Level/Scoping}{}% 63
+\BOOKMARK [1][-]{section.B.1}{What problem are you trying to solve?}{appendix.B}% 64
+\BOOKMARK [1][-]{section.B.2}{What will you know when you're done?}{appendix.B}% 65
+\BOOKMARK [1][-]{section.B.3}{How will you know when you're done?}{appendix.B}% 66
+\BOOKMARK [1][-]{section.B.4}{How original is this?}{appendix.B}% 67
+\BOOKMARK [1][-]{section.B.5}{Who will care? What's the impact?}{appendix.B}% 68
+\BOOKMARK [1][-]{section.B.6}{Why did you select this problem among many?}{appendix.B}% 69
+\BOOKMARK [1][-]{section.B.7}{Why will this be a significant contribution to the literature in your area?}{appendix.B}% 70

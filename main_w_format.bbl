@@ -1,0 +1,404 @@
+\begin{thebibliography}{10}
+
+\bibitem{gartner}
+Gartner Research.
+\newblock Gartner says 6.4 billion connected "things" will be in use in 2016,
+  up 30 percent from 2015, 2015.
+\newblock \url{http://www.gartner.com/newsroom/id/3165317}.
+
+\bibitem{juniper-research}
+Juniper Research.
+\newblock ‘internet of things’ connected devices to almost triple to over
+  38 billion units by 2020, 2015.
+\newblock
+  \url{http://www.juniperresearch.com/press/press-releases/iot-connected-devices-to-triple-to-38-bn-by-2020}.
+
+\bibitem{stats-iot}
+Statista.
+\newblock Internet of things (iot): number of connected devices worldwide from
+  2012 to 2020 (in billions), 2016.
+\newblock
+  http://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/.
+
+\bibitem{ideas2020}
+Ideas 2020.
+\newblock Questions and answers.
+\newblock \url{http://www.ideen2020.de/en/2993/}.
+
+\bibitem{els}
+Elseiver.
+\newblock Special issue on “cyber-physical systems (cps), internet of things
+  (iot) and big data”.
+\newblock
+  \url{http://www.journals.elsevier.com/future-generation-computer-systems/call-for-papers/special-issue-on-cyber-physical-systems-cps-internet-of-thin}.
+
+\bibitem{k-ieee}
+Kate Carruthers.
+\newblock Internet of things and beyond: Cyber-physical systems.
+\newblock
+  \url{http://iot.ieee.org/newsletter/may-2016/internet-of-things-and-beyond-cyber-physical-systems}.
+
+\bibitem{shi2011survey}
+Jianhua Shi, Jiafu Wan, Hehua Yan, and Hui Suo.
+\newblock A survey of cyber-physical systems.
+\newblock In {\em Wireless Communications and Signal Processing (WCSP), 2011
+  International Conference on}, pages 1--6. IEEE, 2011.
+
+\bibitem{baheti2011cyber}
+Radhakisan Baheti and Helen Gill.
+\newblock Cyber-physical systems.
+\newblock {\em The impact of control technology}, 12:161--166, 2011.
+
+\bibitem{banerjee2012ensuring}
+Ayan Banerjee, Krishna~K Venkatasubramanian, Tridib Mukherjee, and Sandeep
+  Kumar~S Gupta.
+\newblock Ensuring safety, security, and sustainability of mission-critical
+  cyber--physical systems.
+\newblock {\em Proceedings of the IEEE}, 100(1):283--299, 2012.
+
+\bibitem{6803220}
+C.~Sarkar, S.~N. A.~U. Nambi, R.~V. Prasad, and A.~Rahim.
+\newblock A scalable distributed architecture towards unifying iot
+  applications.
+\newblock In {\em Internet of Things (WF-IoT), 2014 IEEE World Forum on}, pages
+  508--513, March 2014.
+
+\bibitem{7275445}
+S.~F. Abedin, M.~G.~R. Alam, N.~H. Tran, and C.~S. Hong.
+\newblock A fog based system model for cooperative iot node pairing using
+  matching theory.
+\newblock In {\em Network Operations and Management Symposium (APNOMS), 2015
+  17th Asia-Pacific}, pages 309--314, Aug 2015.
+
+\bibitem{m2m_iot}
+H\"oller Jan.
+\newblock {\em From machine-to-machine to the Internet of things: introduction
+  to a new age of intelligence}.
+\newblock Elsevier Academic Press, 2014.
+\newblock pg. 197.
+
+\bibitem{network_sans}
+SANS Institute.
+\newblock Network security resources, 2015.
+\newblock \url{https://www.sans.org/network-security/}.
+
+\bibitem{scaling}
+sharcnet.
+\newblock Measuring parallel scaling performance, 2016.
+\newblock
+  \url{https://www.sharcnet.ca/help/index.php/Measuring_Parallel_Scaling_Performance}.
+
+\bibitem{parallel_computing}
+Geprge Karypis Vipin~Kumar Anatha~Grama, Anshul~Gupta.
+\newblock {\em Introduction to Parallel Computing, Second Edition}.
+\newblock Addison-Wesley, 2003.
+\newblock pg. 211.
+
+\bibitem{dr-dobbs}
+James~Reinder Michael~McCool, Arch~Robison.
+\newblock Amdahl's law vs. gustafson-barsis' law, 2013.
+\newblock
+  \url{http://www.drdobbs.com/parallel/amdahls-law-vs-gustafson-barsis-law/240162980}.
+
+\bibitem{Delic:2016:RIS:2891279.2822885}
+Kemal~A. Delic.
+\newblock On resilience of iot systems: The internet of things (ubiquity
+  symposium).
+\newblock {\em Ubiquity}, 2016(February):1:1--1:7, February 2016.
+
+\bibitem{iot-rfid-journal}
+Kevin Ashton.
+\newblock That 'internet of things' thing, 2009.
+\newblock \url{http://www.rfidjournal.com/articles/view?4986}.
+
+\bibitem{newsweek-iot}
+Kevin Maney.
+\newblock Meet kevin ashton, father of the internet of things, 2015.
+\newblock
+  \url{http://www.newsweek.com/2015/03/06/meet-kevin-ashton-father-internet-things-308763.html}.
+
+\bibitem{smithsonian-iot}
+Arik Gabbai.
+\newblock Kevin ashton describes "the internet of things", 2015.
+\newblock
+  \url{http://www.smithsonianmag.com/innovation/kevin-ashton-describes-the-internet-of-things-180953749/?no-ist}.
+
+\bibitem{forbes-iot-exp}
+Jacob Morgan.
+\newblock A simple explanation of 'the internet of things', 2014.
+\newblock
+  \url{http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/#1d620e4a6828}.
+
+\bibitem{iot-analytics-def}
+IoT Analytics.
+\newblock Why the internet of things is called internet of things: Definition,
+  history, disambiguation.
+\newblock \url{https://iot-analytics.com/internet-of-things-definition/}.
+
+\bibitem{7002114}
+M.~Gomes, R.~da~Rosa~Righi, and C.~A. da~Costa.
+\newblock Internet of things scalability: Analyzing the bottlenecks and
+  proposing alternatives.
+\newblock In {\em 2014 6th International Congress on Ultra Modern
+  Telecommunications and Control Systems and Workshops (ICUMT)}, pages
+  269--276, Oct 2014.
+
+\bibitem{iiot-accent}
+Walid~Negm Paul~Daugherty, Prith~Banerjee and Allan~E. Alter.
+\newblock Driving unconventional growth through the industrial internet of
+  things, 2015.
+\newblock
+  \url{https://www.accenture.com/us-en/_acnmedia/Accenture/next-gen/reassembling-industry/pdf/Accenture-Driving-Unconventional-Growth-through-IIoT.pdf
+  }.
+
+\bibitem{smart_light}
+Markets and Markets.
+\newblock Smart lighting market worth 8.14 billion usd by 2020, 2015.
+\newblock
+  \url{http://www.marketsandmarkets.com/PressReleases/smart-lighting.asp}.
+
+\bibitem{smart_light_2}
+Tom Pincince.
+\newblock Part 2. what is smart about smart lighting?, 2015.
+\newblock
+  \url{https://www.digitallumens.com/resources/blog-post/part-2-smart-smart-lighting/}.
+
+\bibitem{smart_hospital}
+Evan Weremeychik.
+\newblock How to design a ‘smart’ hospital, 2014.
+\newblock
+  \url{http://www.healthcaredesignmagazine.com/article/how-design-smart-hospital}.
+
+\bibitem{DBLP:conf/aina/PrazeresS16}
+C{\'{a}}ssio V.~S. Prazeres and Martin Serrano.
+\newblock Soft-iot: Self-organizing {FOG} of things.
+\newblock In Leonard Barolli, Makoto Takizawa, Tomoya Enokido, Antonio~J. Jara,
+  and Yann Bocchi, editors, {\em 30th International Conference on Advanced
+  Information Networking and Applications Workshops, {AINA} 2016 Workshops,
+  Crans-Montana, Switzerland, March 23-25, 2016}, pages 803--808. {IEEE}
+  Computer Society, 2016.
+
+\bibitem{AI_book}
+Michael Negnevitsky.
+\newblock {\em Artificial Intelligence: A Guide to Intelligent Systems}.
+\newblock Pearson, 2011.
+
+\bibitem{AI-modern-app}
+Stuart Russell and Peter Norvig.
+\newblock {\em Artificial Intelligence: A Modern Approach (3rd Edition)}.
+\newblock Pearson, 2009.
+
+\bibitem{mikolov2010recurrent}
+Tomas Mikolov, Martin Karafi{\'a}t, Lukas Burget, Jan Cernock{\`y}, and Sanjeev
+  Khudanpur.
+\newblock Recurrent neural network based language model.
+\newblock In {\em Interspeech}, volume~2, page~3, 2010.
+
+\bibitem{DBLP:journals/neco/HochreiterS97}
+Sepp Hochreiter and J{\"{u}}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural Computation}, 9(8):1735--1780, 1997.
+
+\bibitem{nn-apps}
+Standford.
+\newblock Applications for neural networks, 2016.
+\newblock
+  \url{https://cs.stanford.edu/people/eroberts/courses/soco/projects/2000-01/neural-networks/Applications/index.html}.
+
+\bibitem{7190434}
+I.~Kotenko, I.~Saenko, F.~Skorik, and S.~Bushuev.
+\newblock Neural network approach to forecast the state of the internet of
+  things elements.
+\newblock In {\em Soft Computing and Measurements (SCM), 2015 XVIII
+  International Conference on}, pages 133--135, May 2015.
+
+\bibitem{monirullares}
+Bryan D Payne Martim~Carbone Monirul and Sharif~Wenke Lee.
+\newblock Lares: An architecture for secure active monitoring using
+  virtualization.
+
+\bibitem{6414014}
+L.~Jiang, G.~Tian, and S.~Zhu.
+\newblock Design and implementation of network forensic system based on
+  intrusion detection analysis.
+\newblock In {\em Control Engineering and Communication Technology (ICCECT),
+  2012 International Conference on}, pages 689--692, Dec 2012.
+
+\bibitem{techcruch-security}
+Mahendra Ramsinghani.
+\newblock How the 'insecurity of things' creates the next wave of security
+  opportunities.
+\newblock
+  \url{https://techcrunch.com/2016/06/26/how-the-insecurity-of-things-creates-the-next-wave-of-security-opportunities/}.
+
+\bibitem{hp-security}
+Hewlett~Packard Enterprise.
+\newblock Internet of things research study, 2015 report, 2015.
+\newblock \url{http://www8.hp.com/h20195/V2/GetPDF.aspx/4AA5-4759ENW.pdf}.
+
+\bibitem{DBLP:conf/colcom/OriwohJES13}
+Edewede Oriwoh, David Jazani, Gregory Epiphaniou, and Paul Sant.
+\newblock Internet of things forensics: Challenges and approaches.
+\newblock In Elisa Bertino, Dimitrios Georgakopoulos, Mudhakar Srivatsa, Surya
+  Nepal, and Alessandro Vinciarelli, editors, {\em 9th {IEEE} International
+  Conference on Collaborative Computing: Networking, Applications and
+  Worksharing, Austin, TX, USA, October 20-23, 2013}, pages 608--615. {ICST} /
+  {IEEE}, 2013.
+
+\bibitem{ge_health}
+GE~Healthcare.
+\newblock Smart technologies, 2016.
+\newblock
+  \url{http://www3.gehealthcare.com/en/products/categories/computed_tomography/smart_technologies}.
+
+\bibitem{ibm_grid}
+IBM~Research Zurich.
+\newblock Smartgrid, 2016.
+\newblock \url{http://www.research.ibm.com/labs/zurich/smartgrid/}.
+
+\bibitem{6032699}
+S.~Sridhar, A.~Hahn, and M.~Govindarasu.
+\newblock Cyber 2013;physical system security for the electric power grid.
+\newblock {\em Proceedings of the IEEE}, 100(1):210--224, Jan 2012.
+
+\bibitem{DOErequire}
+U.S.~Department of~Energy.
+\newblock A systems view of the modern grid, 2007.
+\newblock National Energy Technology Laboratory.
+
+\bibitem{6899124}
+G.~Karsai, D.~Balasubramanian, A.~Dubey, and W.~R. Otte.
+\newblock Distributed and managed: Research challenges and opportunities of the
+  next generation cyber-physical systems.
+\newblock In {\em 2014 IEEE 17th International Symposium on
+  Object/Component/Service-Oriented Real-Time Distributed Computing}, pages
+  1--8, June 2014.
+
+\bibitem{7471348}
+K.~Nahrstedt, H.~Li, P.~Nguyen, S.~Chang, and L.~Vu.
+\newblock Internet of mobile things: Mobility-driven challenges, designs and
+  implementations.
+\newblock In {\em 2016 IEEE First International Conference on
+  Internet-of-Things Design and Implementation (IoTDI)}, pages 25--36, April
+  2016.
+
+\bibitem{cardenas2009challenges}
+Alvaro Cardenas, Saurabh Amin, Bruno Sinopoli, Annarita Giani, Adrian Perrig,
+  and Shankar Sastry.
+\newblock Challenges for securing cyber physical systems.
+\newblock In {\em Workshop on future directions in cyber-physical systems
+  security}, page~5, 2009.
+
+\bibitem{6092778}
+K.~Rieck.
+\newblock Computer security and machine learning: Worst enemies or best
+  friends?
+\newblock In {\em SysSec Workshop (SysSec), 2011 First}, pages 107--110, July
+  2011.
+
+\bibitem{6967233}
+X.~Xingmei, Z.~Jing, and W.~He.
+\newblock Research on the basic characteristics, the key technologies, the
+  network architecture and security problems of the internet of things.
+\newblock In {\em Computer Science and Network Technology (ICCSNT), 2013 3rd
+  International Conference on}, pages 825--828, Oct 2013.
+
+\bibitem{7513647}
+M.~Grabovica, S.~Popić, D.~Pezer, and V.~Knežević.
+\newblock Provided security measures of enabling technologies in internet of
+  things (iot): A survey.
+\newblock In {\em 2016 Zooming Innovation in Consumer Electronics International
+  Conference (ZINC)}, pages 28--31, June 2016.
+
+\bibitem{bluetooth}
+Bluetooth.
+\newblock Story behind bluetooth technology, 2016.
+\newblock
+  \url{https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth}.
+
+\bibitem{7528258}
+Ş~C. Arseni, M.~Miţoi, and A.~Vulpe.
+\newblock Pass-iot: A platform for studying security, privacy and trust in iot.
+\newblock In {\em 2016 International Conference on Communications (COMM)},
+  pages 261--266, June 2016.
+
+\bibitem{7538981}
+J.~Dofe, J.~Frey, and Q.~Yu.
+\newblock Hardware security assurance in emerging iot applications.
+\newblock In {\em 2016 IEEE International Symposium on Circuits and Systems
+  (ISCAS)}, pages 2050--2053, May 2016.
+
+\bibitem{DBLP:conf/IEEEscc/ZawoadH15}
+Shams Zawoad and Ragib Hasan.
+\newblock Faiot: Towards building a forensics aware eco system for the internet
+  of things.
+\newblock In {\em 2015 {IEEE} International Conference on Services Computing,
+  {SCC} 2015, New York City, NY, USA, June 27 - July 2, 2015}, pages 279--284.
+  {IEEE} Computer Society, 2015.
+
+\bibitem{DBLP:conf/uic/OriwohS13}
+Edewede Oriwoh and Paul Sant.
+\newblock The forensics edge management system: {A} concept and design.
+\newblock In {\em 2013 {IEEE} 10th International Conference on Ubiquitous
+  Intelligence and Computing and 2013 {IEEE} 10th International Conference on
+  Autonomic and Trusted Computing, {UIC/ATC} 2013, Vietri sul Mare, Sorrento
+  Peninsula, Italy, December 18-21, 2013}, pages 544--550. {IEEE} Computer
+  Society, 2013.
+
+\bibitem{5289177}
+Z.~Zheng and Z.~Lan.
+\newblock Reliability-aware scalability models for high performance computing.
+\newblock In {\em 2009 IEEE International Conference on Cluster Computing and
+  Workshops}, pages 1--9, Aug 2009.
+
+\bibitem{umn}
+Kwon.
+\newblock Multi-processor laws, 2013.
+\newblock
+  \url{http://www.d.umn.edu/~tkwon/course/5315/HW/MultiprocessorLaws.pdf}.
+
+\bibitem{7134032}
+K.~Benson.
+\newblock Enabling resilience in the internet of things.
+\newblock In {\em Pervasive Computing and Communication Workshops (PerCom
+  Workshops), 2015 IEEE International Conference on}, pages 230--232, March
+  2015.
+
+\bibitem{7724222}
+N.~Kumari, S.~K. Gupta, R.~Choudhary, and S.~L. Agrwal.
+\newblock New performance analysis of aodv, dsdv and olsr routing protocol for
+  manet.
+\newblock In {\em 2016 3rd International Conference on Computing for
+  Sustainable Global Development (INDIACom)}, pages 33--35, March 2016.
+
+\bibitem{7724851}
+S.~Kukreja and P.~Singh.
+\newblock Performance metrics of aodv and olsr in wireless mesh network.
+\newblock In {\em 2016 3rd International Conference on Computing for
+  Sustainable Global Development (INDIACom)}, pages 3182--3185, March 2016.
+
+\bibitem{aws}
+Amazon~Web Services.
+\newblock Authentication in aws iot.
+\newblock
+  \url{http://docs.aws.amazon.com/iot/latest/developerguide/identity-in-iot.html}.
+
+\bibitem{atmel_certs}
+Eustace Asanghanwa.
+\newblock How to create root and other certificates for iot devices, 2016.
+\newblock
+  \url{http://www.atmel.com/images/How-to-Create-Root-and-Other-Certificates-for-IoT_Article.pdf}.
+
+\bibitem{nnet-r}
+Michy Alice.
+\newblock Fitting a neural network in r; neuralnet package, 2015.
+\newblock
+  \url{https://www.r-bloggers.com/fitting-a-neural-network-in-r-neuralnet-package/
+  }.
+
+\bibitem{mx}
+MXNET.
+\newblock Mxnet, 2016.
+\newblock \url{http://mxnet.readthedocs.io/en/latest/}.
+
+\end{thebibliography}
