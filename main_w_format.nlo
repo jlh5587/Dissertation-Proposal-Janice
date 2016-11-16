@@ -1,10 +1,11 @@
 \nomenclatureentry{aIoT@[{IoT}]\begingroup Internet of Things\nomeqref {1.0}|nompageref}{1}
 \nomenclatureentry{aCPS@[{CPS}]\begingroup Cyber-Physical System\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aM-TRA@[{M-TRA}]\begingroup Multi-Tiered Resilient Architecture\nomeqref {1.0}|nompageref}{2}
 \nomenclatureentry{aIIoT@[{IIoT}]\begingroup Industrial Internet of Things\nomeqref {1.0}|nompageref}{5}
-\nomenclatureentry{aHPC@[{HPC}]\begingroup High Performance Computing\nomeqref {1.0}|nompageref}{7}
+\nomenclatureentry{aHPC@[{HPC}]\begingroup High Performance Computing\nomeqref {1.0}|nompageref}{8}
 \nomenclatureentry{aAI@[{AI}]\begingroup Artifical Intelligence\nomeqref {1.0}|nompageref}{8}
 \nomenclatureentry{aANN@[{ANN}]\begingroup Artificial Neural Network\nomeqref {1.0}|nompageref}{8}
-\nomenclatureentry{aRNN@[{RNN}]\begingroup Recurrent Neural Network\nomeqref {1.0}|nompageref}{8}
+\nomenclatureentry{aRNN@[{RNN}]\begingroup Recurrent Neural Network\nomeqref {1.0}|nompageref}{9}
 \nomenclatureentry{aLSTM@[{LSTM}]\begingroup Long Short-Term Memory\nomeqref {1.0}|nompageref}{9}
 \nomenclatureentry{aQoS@[{QoS}]\begingroup Quality of Service\nomeqref {1.0}|nompageref}{13}
 \nomenclatureentry{aRFID@[{RFID}]\begingroup Radio Frequency Identification\nomeqref {2.0}|nompageref}{18}
